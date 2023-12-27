@@ -1,4 +1,4 @@
 #+TITLE: AOC completions 2023
 #+AUTHOR: psdp
 
-This is the code for a university project that is supposed to track the real time location of an electric vehicle using the geolocation api.
+These are my personal completions for oac 2023. they are later than the event but they are still fun to do. Done in golang for practice/learning

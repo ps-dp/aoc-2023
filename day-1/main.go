@@ -1,8 +1,14 @@
 package main
 
 import(
+	"os"
+	"log"
 	"fmt"
+	"unicode"
 )
 func main() {
-	fmt.Println("Hello world")
+	text, err := os.ReadFile("input")
+	if err != nil{
+		log.Fatalf("unable to read file %v", err)
+	}
 }
